@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Enterprise Control System (ECS)</title>
+  <style>
+    /* --- Global Styles --- */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", Arial, sans-serif;
+    }
+
+    body {
+      background-color: #f8fafc;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    h1, h2, h3 {
+      color: #1a202c;
+    }
+
+    a {
+      text-decoration: none;
+      color: white;
+    }
+
+    /* --- Header --- */
+    header {
+      background: linear-gradient(90deg, #004aad, #0077b6);
+      color: white;
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.8rem;
+      opacity: 0.9;
+    }
+
+    /* --- Section Styles --- */
+    section {
+      padding: 3rem 1.5rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .features, .industries {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    .card {
+      background: white;
+      padding: 1.8rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      transition: transform 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+    }
+
+    .card h3 {
+      color: #004aad;
+      margin-bottom: 0.6rem;
+    }
+
+    /* --- Call to Action --- */
+    .cta {
+      text-align: center;
+      margin-top: 3rem;
+    }
+
+    .cta a {
+      display: inline-block;
+      background: #004aad;
+      padding: 0.8rem 2rem;
+      border-radius: 30px;
+      font-weight: 600;
+      transition: background 0.3s;
+    }
+
+    .cta a:hover {
+      background: #002f6c;
+    }
+
+    /* --- Footer --- */
+    footer {
+      background: #002f6c;
+      color: white;
+      text-align: center;
+      padding: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    footer p {
+      font-size: 0.9rem;
+      opacity: 0.8;
+    }
+
+    /* --- Responsive --- */
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      section {
+        padding: 2rem 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Enterprise Control System (ECS)</h1>
+    <p>Empowering Businesses with Intelligent, Unified Control</p>
+  </header>
+
+  <!-- About -->
+  <section>
+    <h2>🚀 What is ECS?</h2>
+    <p style="margin-top:1rem;">
+      ECS is an all-in-one enterprise control platform designed to simplify and streamline your business operations. 
+      From production to finance, inventory to HR — ECS connects every part of your organization through one intelligent, customizable dashboard.
+    </p>
+  </section>
+
+  <!-- Features -->
+  <section>
+    <h2>⚙️ Key Features</h2>
+    <div class="features">
+      <div class="card">
+        <h3>🔗 Unified Operations</h3>
+        <p>Integrate every department — Manufacturing, Sales, Procurement, HR, and Accounting — under one cohesive system.</p>
+      </div>
+      <div class="card">
+        <h3>🤖 Automation-Driven</h3>
+        <p>Reduce manual effort with smart workflows, automated reporting, and AI-assisted decision-making.</p>
+      </div>
+      <div class="card">
+        <h3>📊 Real-Time Insights</h3>
+        <p>Access live analytics and dashboards to make informed business decisions anytime, anywhere.</p>
+      </div>
+      <div class="card">
+        <h3>☁️ Cloud-Native & Secure</h3>
+        <p>Built on Azure microservices for scalability, reliability, and enterprise-grade security.</p>
+      </div>
+      <div class="card">
+        <h3>🌐 Multi-Device Access</h3>
+        <p>Manage your operations from desktop, tablet, or mobile — stay in control wherever you are.</p>
+      </div>
+      <div class="card">
+        <h3>🧩 Modular Design</h3>
+        <p>Start small and scale up — choose only the modules you need: Manufacturing, CRM, SCM, HRMS, or Finance.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose ECS -->
+  <section>
+    <h2>💡 Why Choose ECS?</h2>
+    <ul style="margin-top:1rem; list-style-type: '✅ '; padding-left:1rem;">
+      <li>Reduce operational overhead by 40%</li>
+      <li>Seamless integration with cloud and IoT systems</li>
+      <li>Tailored for Indian enterprises and MSMEs</li>
+      <li>24/7 support and custom deployment options</li>
+    </ul>
+  </section>
+
+  <!-- Industries -->
+  <section>
+    <h2>🏭 Built for Every Industry</h2>
+    <div class="industries">
+      <div class="card"><p>Manufacturing</p></div>
+      <div class="card"><p>Retail</p></div>
+      <div class="card"><p>Logistics</p></div>
+      <div class="card"><p>Construction</p></div>
+      <div class="card"><p>Services</p></div>
+      <div class="card"><p>Distribution</p></div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <h2>📞 Get Started Today</h2>
+    <p style="margin:1rem 0;">Experience how ECS transforms your business.</p>
+    <a href="#">Request a Demo</a>
+    <a href="#" style="margin-left:1rem;">Contact Us</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 ECS — Enterprise Control System | Built with 💙 on Azure</p>
+  </footer>
+
+</body>
+</html>
